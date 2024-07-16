@@ -1133,7 +1133,7 @@ class InspectionController:
             self.parent.iface.mapCanvas().setSelectionColor(
                 QColor(255, 255, 255, 0)
             )
-            self.set_date_google(self.tile[5])
+            #self.set_date_google(self.tile[5])
             # self.load_thumbnail_bing(self.bing_thumb_url)
             self.set_feature_color()
             if selected_mode == 'REVIEW':
